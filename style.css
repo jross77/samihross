@@ -1,0 +1,272 @@
+
+
+  #Profile{
+    max-height: 100%;
+    max-width: 100%;
+    height: 171px;
+    display: block;
+    line-height:1.6em;
+    position:relative;
+    margin-left:150;
+    margin-top:-15%;
+    margin-bottom: 5%;
+  }
+
+
+  body {
+    background-color: #fcfcfc;
+    color: #0b0404;
+    background-size: auto;
+    background-image: none;
+    background-position: top left;
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: repeat;
+}
+  
+  ul {
+    list-style: none;
+    background-color: none;
+    overflow:hidden;   
+    line-height:1.6em;
+    margin-right:30px;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+ul li{
+  padding: 5;
+}
+  ul li a{
+    width: 7%;
+    float:right;
+     text-decoration: none;
+     color:#140a0a;
+     font-family: Futura, "Trebuchet MS", Georgia, serif;
+    font-size: 13;
+    font-weight: 200;
+    font-style: normal;
+    display:block;
+    position:relative;
+  }
+  
+    .works{
+    display: grid;
+    grid-gap: 50px 100px;
+    align-content: center;
+   margin-left: 27%;
+    } 
+    .image{
+      width: 100%;
+      height: 80%;
+    }
+    .cell {
+      grid-column-start: 1;
+      grid-column-end: 3;
+        width: 30vmin;
+       height: 30vmin;
+       position: relative;
+       border: 5px solid white;
+       display: table-cell;
+       box-sizing: border-box;
+       cursor: pointer;
+     }
+
+
+    @media(max-width:920) {
+      .card{
+      flex: 3 27%;
+      }
+      }
+
+/*
+ .cell{
+    padding-right: 60;
+    padding-left:60;
+    padding-top:0;
+    padding-bottom:0;
+    float:left;
+     text-decoration: none;
+     color:#140a0a;
+     font-family: "proxima-nova";
+    font-size: 12px;
+    line-height: 1.6em;
+    font-weight: 200;
+    font-style: normal;
+    display:block;
+    position:relative;
+    z-index: 0;
+  }
+  */
+  
+
+  ul li a:hover{
+    background-image:url(glitter3.jpeg);
+    background-size:cover;
+    color: white;
+    /*background-color:#b8b4b4; */
+  }
+
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+
+/*
+
+#Profile{
+    height: 171px;
+    margin-left:150;
+    line-height:1.6em;
+
+}
+ */
+ 
+  .cell:hover {
+    background-color: rgb(34, 34, 34);
+  }
+ 
+  .cell p{
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    color: #707070;
+   font-weight: 400;
+}
+
+.about_me{
+  text-align: center;
+  white-space: pre-wrap;
+  font-family: Futura, "Trebuchet MS", Georgia, serif;
+  line-height: 20%;
+}
+  .about_me h1{
+    color: #222;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight:normal;
+  }
+
+  .about_me h2{
+    font-size: 10px;
+    color: #222;
+    font-weight:normal;
+    margin: 1%;
+  }
+
+  .about_me .contacts{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight:normal;
+    line-height: .1em;
+    margin: .8%;
+  }
+
+  #click_me{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #baacc2;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+.click{
+position:relative;
+z-index:1000;
+}
+.click p{
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica;
+    font-size: 10px;
+    color: #baacc2;
+    font-weight:normal;
+    margin: .2%;
+   position:relative;
+   margin-left:5%;
+}
+#dots{
+    position: relative;
+    z-index: -1;
+  }
+
+#resume_img{
+  line-height: 0;
+  text-align: center;
+  width: 50%;
+  position: relative;
+  margin-left:30%;
+  margin-top:-20%;
+}
+  
+
+/*
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background:#b5a19f
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+      center;
+   
+  }
+
+
+@keyframes move-twink-back {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -10000px 5000px;
+    }
+  }
+  @-webkit-keyframes move-twink-back {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -10000px 5000px;
+    }
+  }
+  @-moz-keyframes move-twink-back {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -10000px 5000px;
+    }
+  }
+  @-ms-keyframes move-twink-back {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -10000px 5000px;
+    }
+  }
+  */
