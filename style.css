@@ -238,6 +238,49 @@ z-index:1000;
 }
   
 
+#link-home{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #968f8f;
+  margin-bottom: 10%;
+}
+
+#link-home a{
+  color: white;
+  font-family: Arial;
+}
+
+#title{
+  text-align: center;
+  font-family: Helvetica,arial,sans-serif;
+  font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 5%;
+}
+
+#description{
+  text-align: center;
+  font-family: Helvetica,arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.2em;
+    margin-bottom: 2%;
+}
+#image{
+  margin-bottom: 2%;
+  width: 100%;
+  height:50%;
+  margin-left:40%;
+}
+#caption{
+  margin-bottom: 5%;
+}
+#resources{
+  margin-bottom: 5%;
+}
+
+
 /*
   .stars {
     position: absolute;
